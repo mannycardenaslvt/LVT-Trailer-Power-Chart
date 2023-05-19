@@ -40,7 +40,7 @@ app.layout = html.Div([
         multiple=True
     ),
     html.Div(
-        children=html.I("Expects a CSV file with column order: Date, Volts, Amps, Watts"),
+        children=html.I("Expects a CSV file with four columns in this order: Date, Volts, Amps, Watts"),
         style={'textAlign': 'center'}
     ),
     html.Div(id='output-data-upload'),
